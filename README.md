@@ -6,14 +6,14 @@
 
 3. Make `dotfiles`-folder, `mkdir ~/dotfiles`
 
-4. `git clone git@github.com/andrekanakis/.dotfiles.git ~/dotfiles`
+4. `git clone git@github.com:andrekanakis/.dotfiles.git ~/dotfiles`
 
-5. `cd ~/dotfiles/` -> `stow . -t ~`.
+5. `cd ~/dotfiles/` -> `stow <app_name> -t ~`.
 
-For specific configs `stow nvim -t ~` as an example
+i.e. `stow nvim -t ~`
 
 </br>
 <details>
-<summary>Thanks</summary>
+<summary> </summary>
 @johanwulf for letting me steal some of his configs
 </details>

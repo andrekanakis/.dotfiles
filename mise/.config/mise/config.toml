@@ -1,0 +1,10 @@
+[tools]
+deno = "latest"
+elixir = "latest"
+erlang = "latest"
+gleam = "latest"
+go = "latest"
+lua = "latest"
+lua-language-server = "latest"
+python = "latest"
+zig = "latest"

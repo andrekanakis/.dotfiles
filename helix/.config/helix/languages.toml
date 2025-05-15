@@ -1,0 +1,27 @@
+# TypeScript, Deno
+[[language]]
+name = "typescript"
+roots = ["deno.json", "deno.jsonc", "package.json"]
+auto-format = true
+language-servers = ["deno-lsp"]
+
+[[language]]
+name = "javascript"
+roots = ["deno.json", "deno.jsonc", "package.json"]
+auto-format = true
+language-servers = ["deno-lsp"]
+
+[language-server.deno-lsp]
+command = "deno"
+args = ["lsp"]
+config.deno.enable = true
+
+# Python, pylsp
+[[language]]
+name = "python"
+language-servers = ["pylsp"]
+
+# Python ruff <not used>
+[language-server.ruff]
+command = "ruff"
+args = ["server"]

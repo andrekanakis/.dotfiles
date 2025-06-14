@@ -1,4 +1,5 @@
 export ZSH="$HOME/.oh-my-zsh"
+export XDG_CONFIG_HOME="$HOME/.config"
 ZSH_THEME="robbyrussell"
 plugins=(
 zsh-autosuggestions
@@ -37,6 +38,9 @@ alias dotfiles="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 alias py="python3"
 alias n="nvim"
 alias nv="nvim"
+
+# presenterm alias
+alias pres="presenterm"
 
 eval "$(starship init zsh)"
 export PATH="/usr/local/sbin:$PATH"

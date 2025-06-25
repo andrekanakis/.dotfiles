@@ -1,34 +1,90 @@
+# New feature introduction
 # feat: ✨
+# Feature related to search or discovery
 # feat: 🔍
+# Feature related to linking or connections
 # feat: 🔗
+# Feature related to security or privacy
 # feat: 🔒
 
+# General bug fix
 # fix: 🐛
+# Minor bug fix
 # fix: 🐞
+# Quick fix or patch
 # fix: 🩹
+# Urgent hotfix
 # fix: 🚑
 
+# UI/UX or cosmetic changes
 # style: 💅
+# Art, design, or visual changes
 # style: 🎨
+# Styling changes, often related to theming
 # style: 💄
 
+# CI/CD related changes, e.g., GitLab CI
 # ci: 🦊
+# Build system or package management changes
 # ci: 📦
 
+# Deployment related changes
 # deploy: 🚀
+# Packaging for deployment
 # deploy: 📦
 
+# Routine cleanup or maintenance
 # chore: 🧹
+# General tool or configuration changes
 # chore: 🔧
+# Configuration or settings changes
 # chore: ⚙️
-# docs: 📜
 
+# Documentation updates
+# docs: 📜
+# Adding new documentation
+# docs: 📝
+# Improving existing documentation
+# docs: 📖
+
+# Code refactoring, no change in functionality
 # refactor: 🔨
+# Performance improvements
 # perf: 🚀
 
+# Adding or updating tests
 # test: 🚦
+# Debugging related changes
 # debug: 🧪
 
+# Dependency updates
+# deps: ⬆️
+# Adding new dependencies
+# deps: 🌱
+# Removing dependencies
+# deps: 🗑️
+
+# Internationalization or localization
+# i18n: 🌐
+# Accessibility improvements
+# a11y: ♿
+
+# Revert previous changes
+# revert: ⏪
+
+# Major breaking change
 # BREAKING CHANGE: 🚨
+# Significant breaking change
 # BREAKING CHANGE: 💥
+# Critical breaking change, potentially destructive
 # BREAKING CHANGE: 💣
+
+
+# Example of long commit message:
+# feat: ✨ Add user profile page
+
+# A more detailed explanation of why this change was made,
+# what it accomplishes, and any significant implementation details.
+
+# Closes #123
+# Co-authored-by: Another Dev <another.dev@example.com>

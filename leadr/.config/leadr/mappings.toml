@@ -1,0 +1,41 @@
+[ps]
+command = "sudo "
+description = "Prepend sudo"
+insert_type = "Prepend"
+
+[ga]
+command = "git add ."
+description = "Git add all"
+execute = true
+
+[gs]
+command = "git status"
+description = "Git status"
+execute = true
+
+[id]
+command = "date +%Y%m%d"
+description = "Insert current date in YYYYMMDD format"
+insert_type = "Insert"
+evaluate = true
+
+[sq]
+command = '"#COMMAND"'
+description = "Surround with quotes"
+insert_type = "Surround"
+
+[y]
+command = " | xclip -selection clipboard"
+description = "Append copy to clipboard"
+insert_type = "Append"
+
+[gc]
+command = 'git commit -m "#CURSOR"'
+description = "Start a Git commit"
+
+[gf]
+command = "git log --oneline | fzf | awk '{print $1}'"
+description = "Fuzzy search git log"
+insert_type = "Insert"
+evaluate = true
+

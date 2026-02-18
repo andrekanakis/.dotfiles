@@ -7,6 +7,7 @@
 
 [core]
     compression = 9
+    editor = nvim
 
 [diff]
     context = 3
@@ -15,13 +16,13 @@
     defaultBranch = main
 
 [log]
-    abbrevCommit = true
+    abbrevCommit = false
     graphColors = blue,yellow,cyan,magenta,green,red
 
 [status]
     branch = true
-    short = true
-    showStash = true
+    ; short = true
+    ; showStash = true
     showUntrackedFiles = all
 
 [push]

@@ -133,3 +133,6 @@ alias bashsource="source ~/.bashrc"
 # Linux version of OSX pbcopy and pbpaste.
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
+. "$HOME/.cargo/env"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
